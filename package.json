@@ -1,0 +1,21 @@
+{
+  "name": "progressive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "http-server -c-1",
+    "build": "steal-tools"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "steal": "^1.5.2",
+    "steal-tools": "^1.3.3"
+  },
+  "steal": {
+    "bundle": ["baz"]
+  }
+}
