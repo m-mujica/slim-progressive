@@ -1,3 +1,3 @@
 module.exports = function() {
-  console.log("bar executed....");
+  console.log("bar fn called");
 };
